@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fff7f2;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #ffbc9a;
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header .logo span {
+    color: #ff4d4d;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ff4d4d;
+}
+
+/* HERO */
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: #e03e3e;
+}
+
+/* PRODUK */
+.produk {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* TENTANG */
+.tentang {
+    padding: 60px 40px;
+    text-align: center;
+    background: #ffe1d6;
+}
+
+/* KONTAK */
+.kontak {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #ffbc9a;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
